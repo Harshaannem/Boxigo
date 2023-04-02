@@ -57,7 +57,6 @@ function MyMoves(props) {
                 e.preventDefault();
                 setShowMoveDetails(!showMoveDetails);
                 setId(props.data.estimate_id);
-                console.log(id);
               }}
             >
               View move details
