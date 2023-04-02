@@ -1,0 +1,91 @@
+/* .side-bar {
+  border-right: 1px solid black;
+} */
+body {
+  font-size: 14px;
+}
+
+.container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+button {
+  font-size: 12px;
+}
+h5,
+h6 {
+  font-weight: bold;
+}
+.main {
+  border-bottom: 1px solid black;
+  margin-bottom: 50px;
+}
+.additional {
+  border-bottom: 1px solid gray;
+}
+/* button */
+.quotes {
+  background-color: red;
+  border-radius: 5px;
+  padding: 7px;
+  color: white;
+}
+.move-details {
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  color: red;
+}
+.edit-inventory {
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.edit-house {
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 5px;
+  outline: black;
+}
+
+/* icons */
+.fa-arrow-right {
+  color: red;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 5px;
+}
+.fa-building {
+  color: red;
+}
+.fa-home {
+  color: red;
+}
+.fa-map {
+  color: red;
+}
+.fa-calendar {
+  color: red;
+}
+.fa-warning {
+  color: red;
+}
+
+/* Inventory */
+.inventory {
+  background-color: rgb(160, 153, 153);
+  padding: 10px;
+  color: rgb(201, 5, 5);
+  font-weight: bold;
+  opacity: 0.8;
+}
+.inventory:hover {
+  color: red;
+  background-color: gray;
+}
