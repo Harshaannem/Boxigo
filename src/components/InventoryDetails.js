@@ -20,7 +20,6 @@ function InventoryDetails(props) {
       <div class="row mt-4 inventory justify-content-between">
         <span>
 
-<<<<<<< HEAD
         Furniture <span class="bg-danger rounded-0 text-white border">{props.data.items.inventory[0].category.length}</span>
      
         </span>
@@ -157,12 +156,6 @@ function InventoryDetails(props) {
       ) : (
         <div></div>
       )}
-=======
-      <LivingRoom data={props.data.item} />
-      <div class="row mt-1 inventory">Bedrooms</div>
-      <div class="row mt-1 inventory">Kitchen</div>
-      <div class="row mt-1 inventory">Bathroom</div>
->>>>>>> d7353691076a06f6b25953045bfb8337c0f8ac2f
 
       <div class="row mt-4">
         <h5>House Details</h5>
