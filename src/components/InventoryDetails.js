@@ -13,7 +13,7 @@ function InventoryDetails(props) {
       </div>
 
       <LivingRoom data={props.data.item} />
-      <div class="row mt-1 inventory">Bedroom</div>
+      <div class="row mt-1 inventory">Bedrooms</div>
       <div class="row mt-1 inventory">Kitchen</div>
       <div class="row mt-1 inventory">Bathroom</div>
 
